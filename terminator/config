@@ -1,0 +1,24 @@
+[global_config]
+  enabled_plugins = CustomCommandsMenu, ActivityWatch, APTURLHandler, LaunchpadBugURLHandler
+  handle_size = 1
+  suppress_multiple_term_dialog = True
+  title_font = Fira Code Light 14
+  title_transmit_bg_color = "#000000"
+  title_use_system_font = False
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    palette = "#000000:#ff0000:#38de21:#ffe50a:#1460d2:#ff005d:#00bbbb:#bbbbbb:#555555:#f40e17:#3bd01d:#edc809:#5555ff:#ff55ff:#6ae3fa:#ffffff"
+    background_color = "#132738"
+    cursor_color = "#f0cc09"
+    foreground_color = "#ffffff"
+    background_image = None
